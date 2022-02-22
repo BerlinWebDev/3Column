@@ -1,3 +1,90 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+@media screen and (min-width: 870px) {
+    .card {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .card:nth-child(1) {
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 4px !important;
+    }
+    .card:nth-child(3) {
+        border-bottom-left-radius: 0px !important;
+        border-top-right-radius: 4px !important;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+.card:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.card:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.card {
+    text-align: left;
+    margin: 0 auto;
+    height: 230px;
+    width: 220px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.card__img {
+    width: 50px;
+}
+
+.card__title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 95%);
+}
+
+.card__desc {
+    font-size: 12px;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card__more {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card__more__sedan {
+    color: hsl(31, 77%, 52%)
+}
+
+.card__more__suv {
+    color: hsl(184, 100%, 22%)
+}
+
+.card__more__luxury {
+    color: hsl(179, 100%, 13%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
