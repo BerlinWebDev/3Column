@@ -73,6 +73,13 @@ body {
     padding: 10px;
 }
 
+.card__more:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
 .card__more__sedan {
     color: hsl(31, 77%, 52%)
 }
